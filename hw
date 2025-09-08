@@ -1,4 +1,0 @@
-import json
-file = open('purchase_log.txt', 'r', encoding='utf-8') 
-for line in file:
-    purchases.update({json.loads(line)["user_id"]:json.loads(line)["category"]})
